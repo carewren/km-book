@@ -1,0 +1,1 @@
+hero photo: 2880x2048 144 ppi
