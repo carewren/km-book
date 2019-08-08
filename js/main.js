@@ -1,5 +1,8 @@
-// let tile = document.getElementsByClassName("project-tile");
-
-// tile.addEventListener("mouseenter", function( event ) {
-//     event.target.class = "project-hover";
-// }, false);
+function hamMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } 
